@@ -7,6 +7,9 @@ namespace Xprema.Data
 {
   public   class MyAdoCommand
     {
-      // Exc Sql Statme
+      // داله تنفذ جمله sql 
+      //داله تنفذ جمل سكوال وترجع النتائج
+      //داله تنفذ اجراء مخزن
+      //داله تنفذ اجراء مخزن وترجع النتائج
     }
 }
