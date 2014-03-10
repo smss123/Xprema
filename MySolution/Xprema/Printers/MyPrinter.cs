@@ -8,15 +8,15 @@ namespace Xprema.Printers
    public  class MyPrinter
     {
        public MyPrinter() { }
+    
+       
+       public void a1 (){
+           /////sdsdsdsdsd
+          }
 
-       /// <summary>
-       /// to Sum 2 int 
-       /// </summary>
-       /// <param name="A"></param>
-       /// <param name="B"></param>
-       /// <returns></returns>
-       public int Sum(int A, int B) {
-           return (A + B);
-       }
+       public string a;
+      
     }
+
+  
 }
