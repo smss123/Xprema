@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Drawing.Printing;
 
+
 namespace Xprema.Printers
 {
    public  class MyPrinter
@@ -21,7 +22,14 @@ namespace Xprema.Printers
            }
            return string.Empty;
        }
-    
+      public void Getallprinter()
+      {
+
+          foreach (string printer in System.Drawing.Printing.PrinterSettings.InstalledPrinters)
+          {
+              Console.WriteLine(printer);
+          }
+      }
       
     }
 
