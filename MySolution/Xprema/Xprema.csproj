@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data\MyAdoCommand.cs" />
     <Compile Include="General\Languge.cs" />
     <Compile Include="Printers\MyPrinter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
