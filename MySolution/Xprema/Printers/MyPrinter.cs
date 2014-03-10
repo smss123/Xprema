@@ -13,6 +13,9 @@ namespace Xprema.Printers
        public void a1 (){
            /////sdsdsdsdsd
           }
+
+       public string a;
+      
     }
 
   
