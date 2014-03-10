@@ -8,5 +8,12 @@ namespace Xprema.Printers
    public  class MyPrinter
     {
        public MyPrinter() { }
+    
+       
+       public void a1 (){
+           /////sdsdsdsdsd
+          }
     }
+
+  
 }
