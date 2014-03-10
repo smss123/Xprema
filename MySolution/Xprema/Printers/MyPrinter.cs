@@ -5,7 +5,8 @@ using System.Text;
 
 namespace Xprema.Printers
 {
-    class MyPrinter
+   public  class MyPrinter
     {
+       public MyPrinter() { }
     }
 }
