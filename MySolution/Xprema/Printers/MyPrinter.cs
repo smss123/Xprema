@@ -22,13 +22,14 @@ namespace Xprema.Printers
            }
            return string.Empty;
        }
-      public void Getallprinter()
+      public List<string> Getallprinter()
       {
-
+          List<string> ls = new List<string>();
           foreach (string printer in System.Drawing.Printing.PrinterSettings.InstalledPrinters)
           {
-              Console.WriteLine(printer);
+              ls.Add(printer);
           }
+          return ls;
       }
       
     }
