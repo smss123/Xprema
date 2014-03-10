@@ -10,11 +10,7 @@ namespace Xprema.Printers
        public MyPrinter() { }
     
        
-       public void a1 (){
-           /////sdsdsdsdsd
-          }
-
-       public string a;
+    
       
     }
 
